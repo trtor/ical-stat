@@ -1,4 +1,10 @@
 dist
+node_modules
 coverage
-**/*.html
+.editorconfig
 .yarn
+*.min.js
+yarn.lock
+.husky
+.prettierignore
+.eslintignore
