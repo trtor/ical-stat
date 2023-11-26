@@ -3,3 +3,5 @@ dist
 .prettierrc.js
 .yarn
 *.min.js
+.gitkeep
+.gitignore
