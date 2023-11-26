@@ -3,8 +3,8 @@
   "packageManager": "yarn@4.0.2",
   "scripts": {
     "lint": "eslint src/**/*.ts --fix",
-    "format": "prettier --write .",
-    "format:check": "prettier --check .",
+    "format": "prettier --write --ignore-unknown .",
+    "format:check": "prettier --check --ignore-unknown .",
     "prepare": "husky install"
   },
   "devDependencies": {
