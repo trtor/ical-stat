@@ -1,0 +1,27 @@
+{
+  "search.exclude": {
+    "**/.yarn": true,
+    "**/.pnp.*": true,
+    "./node_modules": true,
+    "**/yarn.lock": true,
+  },
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true,
+  "[sql]": {
+    "editor.formatOnSave": false
+  },
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "git.pruneOnFetch": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/node_modules": true
+  },
+}
