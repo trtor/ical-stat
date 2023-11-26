@@ -2,7 +2,9 @@
   "name": "ical-stat",
   "packageManager": "yarn@4.0.2",
   "scripts": {
-    "lint": "eslint src/**/*.ts --fix"
+    "lint": "eslint src/**/*.ts --fix",
+    "format": "prettier --write .",
+    "check-format": "prettier --check ."
   },
   "devDependencies": {
     "@types/eslint": "^8",

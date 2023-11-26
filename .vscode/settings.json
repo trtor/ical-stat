@@ -3,7 +3,7 @@
     "**/.yarn": true,
     "**/.pnp.*": true,
     "./node_modules": true,
-    "**/yarn.lock": true,
+    "**/yarn.lock": true
   },
   "typescript.enablePromptUseWorkspaceTsdk": true,
   "editor.formatOnType": true,
@@ -23,5 +23,5 @@
     "**/.DS_Store": true,
     "**/Thumbs.db": true,
     "**/node_modules": true
-  },
+  }
 }
