@@ -9,6 +9,8 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "dayjs": "^1.11.10",
+    "node-ical": "^0.17.0",
     "typescript": "^5.2.2"
   },
   "devDependencies": {
@@ -23,7 +25,8 @@
     "lint-staged": "^15.1.0",
     "nodemon": "^3.0.1",
     "prettier": "^3.1.0",
-    "ts-node": "^10.9.1"
+    "ts-node": "^10.9.1",
+    "tslib": "^2.6.2"
   },
   "husky": {
     "hooks": {
