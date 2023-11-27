@@ -59,25 +59,6 @@ export function reduceImagingGroup(
   return acc;
 }
 
-// export const initImagingRegReduceResult: ImagingRegResultTable[] = [
-//   {
-//     type: "bone*s",
-//     "2019": 0,
-//     "2020": 0,
-//     "2021": 0,
-//     "2022": 0,
-//     "2023": 0,
-//   },
-//   {
-//     type: "mibi*stress",
-//     "2019": 0,
-//     "2020": 0,
-//     "2021": 0,
-//     "2022": 0,
-//     "2023": 0,
-//   },
-// ];
-
 export type CumulativeImagingRegCount = { date: Date; type: ImagingRegName };
 
 export type ImagingRegResultTable = Record<(typeof yearList)[number], number> & { type: ImagingRegName };
