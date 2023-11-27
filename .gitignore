@@ -130,3 +130,5 @@ dist
 !.yarn/versions/
 !.yarn/sdks/
 .pnp.*
+
+src/ics/*.ics
